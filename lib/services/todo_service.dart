@@ -12,7 +12,7 @@ class TodoService {
   }
 
   static Future<List?> fetchTodos() async {
-    print('Chamando fetchData...');
+    print('Chamando fetchData...   ');
     final url = 'https://lucastroo.com/product-crud/public/api/product';
     final uri = Uri.parse(url);
     final response = await http.get(uri);
